@@ -11,6 +11,7 @@ import injectReducer from '../../utils/injectReducer';
 import reducer from './reducer';
 import messages from './messages';
 import { search } from './actions';
+import CommentList from '../CommentList';
 
 class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   componentDidMount() {
@@ -24,6 +25,7 @@ class HomePage extends React.PureComponent { // eslint-disable-line react/prefer
           <FormattedMessage {...messages.header} />
         </h1>
         <Button color="primary" variant="raised"> test </Button>
+        <CommentList comment="Nelson" />
       </div>
     );
   }
