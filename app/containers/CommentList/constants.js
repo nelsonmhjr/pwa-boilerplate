@@ -1,0 +1,1 @@
+export const UPDATE_COMMENT = 'app/containers/CommentList/UPDATE_COMMENT';
